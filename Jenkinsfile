@@ -5,7 +5,7 @@ node {
       git 'https://github.com/pmisarwala/JunitExample.git'
       // Get the Maven tool.Lakshmi
       // ** NOTE: This 'M3' Maven tool must be configured
-      // **       in the global configuration.           
+      // **       in the global configuration.      ;;;;;;     
       mvnHome = tool 'm3'
    }
    stage('Build') {
