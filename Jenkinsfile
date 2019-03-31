@@ -3,7 +3,7 @@ node {
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
       git 'https://github.com/pmisarwala/JunitExample.git'
-      // Get the Maven tool.
+      // Get the Maven tool.Lakshmi
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
       mvnHome = tool 'm3'
